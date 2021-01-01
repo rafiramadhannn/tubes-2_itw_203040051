@@ -28,7 +28,7 @@ section, footer {
 @media (max-width: 768px) {
     .sidenav-trigger {
         display: block;
-        left: 400px;
+        left: 200px;
     }
     .navbar-fixed ul li a {
         display: none;
