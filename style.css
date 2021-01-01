@@ -1,0 +1,36 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#about p {
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.sidenav-trigger {
+    display: none;
+}
+
+section, footer {
+    padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    .sidenav-trigger {
+        display: block;
+        left: 200px;
+    }
+    .navbar-fixed ul li a {
+        display: none;
+    }
+}
